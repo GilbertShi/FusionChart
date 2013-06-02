@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D184F93173973E700F665B4 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D184F92173973E700F665B4 /* JSONKit.m */; };
+		0D1958CC1758E3AB00CAE587 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1958CA1758E3AB00CAE587 /* ViewController.m */; };
+		0D1958CD1758E3AB00CAE587 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D1958CB1758E3AB00CAE587 /* ViewController.xib */; };
+		0D8B3A60172E4D8F0073770A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B3A5F172E4D8F0073770A /* UIKit.framework */; };
+		0D8B3A62172E4D8F0073770A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B3A61172E4D8F0073770A /* Foundation.framework */; };
+		0D8B3A64172E4D8F0073770A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B3A63172E4D8F0073770A /* CoreGraphics.framework */; };
+		0D8B3A6C172E4D8F0073770A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B3A6B172E4D8F0073770A /* main.m */; };
+		0D8B3A70172E4D8F0073770A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B3A6F172E4D8F0073770A /* AppDelegate.m */; };
+		0D8B3A7F172E4D8F0073770A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B3A5F172E4D8F0073770A /* UIKit.framework */; };
+		0D8B3A80172E4D8F0073770A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D8B3A61172E4D8F0073770A /* Foundation.framework */; };
+		0D8B3A9A172E50400073770A /* FusionChartsXTiOSExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B3A98172E50400073770A /* FusionChartsXTiOSExerciseViewController.m */; };
+		0D8B3A9B172E50400073770A /* FusionChartsXTiOSExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D8B3A99172E50400073770A /* FusionChartsXTiOSExerciseViewController.xib */; };
+		0DCDED2017562E23007F4427 /* firebug-lite.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7417560FB000C292DF /* firebug-lite.js */; };
+		0DCDED2117562E23007F4427 /* FusionCharts.HC.Charts.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7517560FB000C292DF /* FusionCharts.HC.Charts.js */; };
+		0DCDED2217562E23007F4427 /* FusionCharts.HC.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7617560FB000C292DF /* FusionCharts.HC.js */; };
+		0DCDED2317562E23007F4427 /* FusionCharts.jqueryplugin.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7717560FB000C292DF /* FusionCharts.jqueryplugin.js */; };
+		0DCDED2417562E23007F4427 /* FusionCharts.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7817560FB000C292DF /* FusionCharts.js */; };
+		0DCDED2517562E23007F4427 /* FusionChartsExportComponent.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7917560FB000C292DF /* FusionChartsExportComponent.js */; };
+		0DCDED2617562E23007F4427 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D2C7F7A17560FB000C292DF /* jquery.min.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D8B3A81172E4D8F0073770A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D8B3A52172E4D8F0073770A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D8B3A5A172E4D8F0073770A;
+			remoteInfo = FusionChartXTIOSExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D184F91173973E700F665B4 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		0D184F92173973E700F665B4 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		0D1958C91758E3AB00CAE587 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D1958CA1758E3AB00CAE587 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D1958CB1758E3AB00CAE587 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0D2C7F7417560FB000C292DF /* firebug-lite.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "firebug-lite.js"; sourceTree = "<group>"; };
+		0D2C7F7517560FB000C292DF /* FusionCharts.HC.Charts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FusionCharts.HC.Charts.js; sourceTree = "<group>"; };
+		0D2C7F7617560FB000C292DF /* FusionCharts.HC.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FusionCharts.HC.js; sourceTree = "<group>"; };
+		0D2C7F7717560FB000C292DF /* FusionCharts.jqueryplugin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FusionCharts.jqueryplugin.js; sourceTree = "<group>"; };
+		0D2C7F7817560FB000C292DF /* FusionCharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FusionCharts.js; sourceTree = "<group>"; };
+		0D2C7F7917560FB000C292DF /* FusionChartsExportComponent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FusionChartsExportComponent.js; sourceTree = "<group>"; };
+		0D2C7F7A17560FB000C292DF /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		0D8B3A5B172E4D8F0073770A /* FusionChartXTIOSExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FusionChartXTIOSExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8B3A5F172E4D8F0073770A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D8B3A61172E4D8F0073770A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D8B3A63172E4D8F0073770A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D8B3A67172E4D8F0073770A /* FusionChartXTIOSExercise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FusionChartXTIOSExercise-Info.plist"; path = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Info.plist"; sourceTree = "<group>"; };
+		0D8B3A6B172E4D8F0073770A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D8B3A6D172E4D8F0073770A /* FusionChartXTIOSExercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FusionChartXTIOSExercise-Prefix.pch"; sourceTree = "<group>"; };
+		0D8B3A6E172E4D8F0073770A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D8B3A6F172E4D8F0073770A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D8B3A7C172E4D8F0073770A /* FusionChartXTIOSExerciseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FusionChartXTIOSExerciseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D8B3A97172E50400073770A /* FusionChartsXTiOSExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FusionChartsXTiOSExerciseViewController.h; path = ../FusionChartsXTiOSExerciseViewController.h; sourceTree = "<group>"; };
+		0D8B3A98172E50400073770A /* FusionChartsXTiOSExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FusionChartsXTiOSExerciseViewController.m; path = ../FusionChartsXTiOSExerciseViewController.m; sourceTree = "<group>"; };
+		0D8B3A99172E50400073770A /* FusionChartsXTiOSExerciseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FusionChartsXTiOSExerciseViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D8B3A58172E4D8F0073770A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8B3A60172E4D8F0073770A /* UIKit.framework in Frameworks */,
+				0D8B3A62172E4D8F0073770A /* Foundation.framework in Frameworks */,
+				0D8B3A64172E4D8F0073770A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8B3A78172E4D8F0073770A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8B3A7F172E4D8F0073770A /* UIKit.framework in Frameworks */,
+				0D8B3A80172E4D8F0073770A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D8B3A50172E4D8F0073770A = {
+			isa = PBXGroup;
+			children = (
+				0D8B3A65172E4D8F0073770A /* FusionChartXTIOSExercise */,
+				0D8B3A5E172E4D8F0073770A /* Frameworks */,
+				0D8B3A5C172E4D8F0073770A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D8B3A5C172E4D8F0073770A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D8B3A5B172E4D8F0073770A /* FusionChartXTIOSExercise.app */,
+				0D8B3A7C172E4D8F0073770A /* FusionChartXTIOSExerciseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D8B3A5E172E4D8F0073770A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D8B3A5F172E4D8F0073770A /* UIKit.framework */,
+				0D8B3A61172E4D8F0073770A /* Foundation.framework */,
+				0D8B3A63172E4D8F0073770A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D8B3A65172E4D8F0073770A /* FusionChartXTIOSExercise */ = {
+			isa = PBXGroup;
+			children = (
+				0D184F91173973E700F665B4 /* JSONKit.h */,
+				0D184F92173973E700F665B4 /* JSONKit.m */,
+				0D8B3A6E172E4D8F0073770A /* AppDelegate.h */,
+				0D8B3A6F172E4D8F0073770A /* AppDelegate.m */,
+				0D8B3A97172E50400073770A /* FusionChartsXTiOSExerciseViewController.h */,
+				0D8B3A98172E50400073770A /* FusionChartsXTiOSExerciseViewController.m */,
+				0D1958C91758E3AB00CAE587 /* ViewController.h */,
+				0D1958CA1758E3AB00CAE587 /* ViewController.m */,
+				0D1958CB1758E3AB00CAE587 /* ViewController.xib */,
+				0D8B3A66172E4D8F0073770A /* Supporting Files */,
+				0D8B3A96172E4FC10073770A /* Resource */,
+			);
+			path = FusionChartXTIOSExercise;
+			sourceTree = "<group>";
+		};
+		0D8B3A66172E4D8F0073770A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D8B3A6B172E4D8F0073770A /* main.m */,
+				0D8B3A6D172E4D8F0073770A /* FusionChartXTIOSExercise-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D8B3A96172E4FC10073770A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0DA70E45172E79D6000925E8 /* FusionCharts */,
+				0D8B3A99172E50400073770A /* FusionChartsXTiOSExerciseViewController.xib */,
+				0D8B3A67172E4D8F0073770A /* FusionChartXTIOSExercise-Info.plist */,
+			);
+			name = Resource;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0DA70E45172E79D6000925E8 /* FusionCharts */ = {
+			isa = PBXGroup;
+			children = (
+				0D2C7F7417560FB000C292DF /* firebug-lite.js */,
+				0D2C7F7517560FB000C292DF /* FusionCharts.HC.Charts.js */,
+				0D2C7F7617560FB000C292DF /* FusionCharts.HC.js */,
+				0D2C7F7717560FB000C292DF /* FusionCharts.jqueryplugin.js */,
+				0D2C7F7817560FB000C292DF /* FusionCharts.js */,
+				0D2C7F7917560FB000C292DF /* FusionChartsExportComponent.js */,
+				0D2C7F7A17560FB000C292DF /* jquery.min.js */,
+			);
+			name = FusionCharts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D8B3A5A172E4D8F0073770A /* FusionChartXTIOSExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8B3A8E172E4D8F0073770A /* Build configuration list for PBXNativeTarget "FusionChartXTIOSExercise" */;
+			buildPhases = (
+				0D8B3A57172E4D8F0073770A /* Sources */,
+				0D8B3A58172E4D8F0073770A /* Frameworks */,
+				0D8B3A59172E4D8F0073770A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FusionChartXTIOSExercise;
+			productName = FusionChartXTIOSExercise;
+			productReference = 0D8B3A5B172E4D8F0073770A /* FusionChartXTIOSExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D8B3A7B172E4D8F0073770A /* FusionChartXTIOSExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8B3A91172E4D8F0073770A /* Build configuration list for PBXNativeTarget "FusionChartXTIOSExerciseTests" */;
+			buildPhases = (
+				0D8B3A77172E4D8F0073770A /* Sources */,
+				0D8B3A78172E4D8F0073770A /* Frameworks */,
+				0D8B3A79172E4D8F0073770A /* Resources */,
+				0D8B3A7A172E4D8F0073770A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D8B3A82172E4D8F0073770A /* PBXTargetDependency */,
+			);
+			name = FusionChartXTIOSExerciseTests;
+			productName = FusionChartXTIOSExerciseTests;
+			productReference = 0D8B3A7C172E4D8F0073770A /* FusionChartXTIOSExerciseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D8B3A52172E4D8F0073770A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Gilbert;
+			};
+			buildConfigurationList = 0D8B3A55172E4D8F0073770A /* Build configuration list for PBXProject "FusionChartXTIOSExercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D8B3A50172E4D8F0073770A;
+			productRefGroup = 0D8B3A5C172E4D8F0073770A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D8B3A5A172E4D8F0073770A /* FusionChartXTIOSExercise */,
+				0D8B3A7B172E4D8F0073770A /* FusionChartXTIOSExerciseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D8B3A59172E4D8F0073770A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DCDED2017562E23007F4427 /* firebug-lite.js in Resources */,
+				0DCDED2117562E23007F4427 /* FusionCharts.HC.Charts.js in Resources */,
+				0DCDED2217562E23007F4427 /* FusionCharts.HC.js in Resources */,
+				0DCDED2317562E23007F4427 /* FusionCharts.jqueryplugin.js in Resources */,
+				0DCDED2417562E23007F4427 /* FusionCharts.js in Resources */,
+				0DCDED2517562E23007F4427 /* FusionChartsExportComponent.js in Resources */,
+				0DCDED2617562E23007F4427 /* jquery.min.js in Resources */,
+				0D8B3A9B172E50400073770A /* FusionChartsXTiOSExerciseViewController.xib in Resources */,
+				0D1958CD1758E3AB00CAE587 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8B3A79172E4D8F0073770A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8B3A7A172E4D8F0073770A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D8B3A57172E4D8F0073770A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8B3A6C172E4D8F0073770A /* main.m in Sources */,
+				0D8B3A70172E4D8F0073770A /* AppDelegate.m in Sources */,
+				0D8B3A9A172E50400073770A /* FusionChartsXTiOSExerciseViewController.m in Sources */,
+				0D184F93173973E700F665B4 /* JSONKit.m in Sources */,
+				0D1958CC1758E3AB00CAE587 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D8B3A77172E4D8F0073770A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D8B3A82172E4D8F0073770A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D8B3A5A172E4D8F0073770A /* FusionChartXTIOSExercise */;
+			targetProxy = 0D8B3A81172E4D8F0073770A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D8B3A8C172E4D8F0073770A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		0D8B3A8D172E4D8F0073770A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D8B3A8F172E4D8F0073770A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Prefix.pch";
+				INFOPLIST_FILE = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D8B3A90172E4D8F0073770A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Prefix.pch";
+				INFOPLIST_FILE = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0D8B3A92172E4D8F0073770A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FusionChartXTIOSExercise.app/FusionChartXTIOSExercise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Prefix.pch";
+				INFOPLIST_FILE = "FusionChartXTIOSExerciseTests/FusionChartXTIOSExerciseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0D8B3A93172E4D8F0073770A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FusionChartXTIOSExercise.app/FusionChartXTIOSExercise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FusionChartXTIOSExercise/FusionChartXTIOSExercise-Prefix.pch";
+				INFOPLIST_FILE = "FusionChartXTIOSExerciseTests/FusionChartXTIOSExerciseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8B3A55172E4D8F0073770A /* Build configuration list for PBXProject "FusionChartXTIOSExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8B3A8C172E4D8F0073770A /* Debug */,
+				0D8B3A8D172E4D8F0073770A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0D8B3A8E172E4D8F0073770A /* Build configuration list for PBXNativeTarget "FusionChartXTIOSExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8B3A8F172E4D8F0073770A /* Debug */,
+				0D8B3A90172E4D8F0073770A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0D8B3A91172E4D8F0073770A /* Build configuration list for PBXNativeTarget "FusionChartXTIOSExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D8B3A92172E4D8F0073770A /* Debug */,
+				0D8B3A93172E4D8F0073770A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D8B3A52172E4D8F0073770A /* Project object */;
+}
