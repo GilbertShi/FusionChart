@@ -1,0 +1,4 @@
+FusionChart Objective-C demo:
+
+This is a simple Objective-C demo. It show an fusionchart. the chart's data is from a server.
+i fixed the autorotation function for ios6.
